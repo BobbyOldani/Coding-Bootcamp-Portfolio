@@ -7,7 +7,23 @@ html {
     
 }
 
-.test {
+body{
+    background-color: transparent!important;
+}
+
+.jumbotron {
     background-color: transparent;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(0, 0, 0, 0.4);
+    margin-bottom: 0!important;
+    padding: 1rem 1rem 1rem 1rem!important;
+  }
+
+  .lead {
+    font-family: 'Quicksand', sans-serif!important;
+    font-size: 1.75rem!important;
+  }
+
+  .btn {
+    font-family: 'Quicksand', sans-serif!important;
+    border-radius: .15rem!important;
   }
