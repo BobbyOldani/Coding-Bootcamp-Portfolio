@@ -1,0 +1,13 @@
+html {
+    background: URL("images/baker.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.test {
+    background-color: transparent;
+    background: rgba(255, 255, 255, 0.5);
+  }
