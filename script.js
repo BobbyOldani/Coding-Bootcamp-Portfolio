@@ -6,4 +6,3 @@ function doSomething(){
 };
 
 $(learnBtn).on("click", doSomething);
-
