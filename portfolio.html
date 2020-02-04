@@ -6,18 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli|Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="portstyle.css">
-    
-    
-    
-
     <title>Coding Bootcamp Portfoilo</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-4" id="profile">
+            <div class="col-sm-2" id="profile">
                 <div class="row">
                     <div id="profPic">
                     </div>
@@ -38,101 +34,114 @@
                     <button type="button" id="resume" class="btn btn-outline-success profInfo">Resume <i class="fas fa-scroll"></i></button>
                 </div>
                 <div class="row">
-                    <a href="mailto:bobbyoldani2@gmail.com"><button type="button" id="resume" class="btn btn-outline-success profInfo">bobbyoldani2@gmail.com <i class="fas fa-envelope"></i></button></a>
+                    <a href="mailto:bobbyoldani2@gmail.com"><button type="button" id="resume" class="btn btn-outline-success profInfo">Email <i class="fas fa-envelope"></i></button></a>
                 </div>
-                
+                <div class="row">
+                    <button type="button" id="quoteBtn" class="btn btn-outline-success profInfo">Motivational Quote!</button>
+                </div>
+                <div class="row">
+                    <div id="quote"></div>
+                </div>
+                <div class="row">
+                    <div id="author"></div>
+                </div>
             </div>
-            <div class="col-sm-8" id="appGallery">
+            <div class="col-sm-10" id="appGallery">
+                <div class="card card-image" id="jumbopic">
+                    <div class="text-center rgba-stylish-strong py-5 px-4">
+                        <div class="py-5">
+                            <h1 class="card-title" id="jumbotext">WORK</h1>
+                            <p class="mb-4 pb-2 px-md-5 mx-md-5">Always learning and improving, one step at a time, to build something to be proud of...</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="accordion md-accordion accordion-1" id="accordionEx23" role="tablist">
                     <div class="card">
                         <a class="white-text font-weight-bold" data-toggle="collapse" href="#collapse96" aria-expanded="true" aria-controls="collapse96">
                             <div class="card-header blue lighten-3 z-depth-1" role="tab" id="heading96">
-                                <h2>Find My Doctor</h2>
+                                <h2 class="app-header">Find My Doctor</h2>
                             </div>
                         </a>
-                        <div id="collapse96" class="collapse show" role="tabpanel" aria-labelledby="heading96"
-                        data-parent="#accordionEx23">
-                        <div class="card-body">
-                            <div class="row my-4">
-                            <div class="col-md-8">
-                                <h4 class="font-weight-bold mb-3 black-text">Utilized Technologies:</h4>
-                                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris</p>
-                                <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                fugiat nulla pariatur.</p>
-                            </div>
-                            <div class="col-md-4 mt-3 pt-2">
-                                <div class="view z-depth-1">
-                                <img src="images/findmydoctor.png" alt="Find-My-Doctor" class="img-fluid">
+                        <div id="collapse96" class="collapse show" role="tabpanel" aria-labelledby="heading96" data-parent="#accordionEx23">
+                            <div class="card-body">
+                                <div class="row my-4">
+                                    <div class="col-md-8">
+                                        <h4 class="font-weight-bold mb-3 black-text">Utilized Technologies:</h4>
+                                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco laboris</p>
+                                        <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur.</p>
+                                    </div>
+                                    <div class="col-md-4 mt-3 pt-2">
+                                        <div class="view z-depth-1">
+                                        <img src="images/findmydoctor.png" alt="Find-My-Doctor" class="img-fluid">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            </div>
-                        </div>
                         </div>
                     </div>
                     <div class="card">
                         <a class="collapsed font-weight-bold white-text" data-toggle="collapse" href="#collapse97" aria-expanded="false" aria-controls="collapse97">
                             <div class="card-header blue lighten-3 z-depth-1" role="tab" id="heading97">   
-                                <h2>Weather Dashboard</h2>
+                                <h2 class="app-header">Weather Dashboard</h2>
                             </div>
                         </a>
-                        <div id="collapse97" class="collapse" role="tabpanel" aria-labelledby="heading97"
-                        data-parent="#accordionEx23">
-                        <div class="card-body">
-                            <div class="row my-4">
-                            <div class="col-md-8">
-                                <h2 class="font-weight-bold mb-3 black-text">Hi! I am the second one.</h2>
-                                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris</p>
-                                <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                fugiat nulla pariatur.</p>
-                            </div>
-                            <div class="col-md-4 mt-3 pt-2">
-                                <div class="view z-depth-1">
-                                <img src="images/weatherdashboard.png" alt="Weather-Dashboard" class="img-fluid">
+                        <div id="collapse97" class="collapse" role="tabpanel" aria-labelledby="heading97" data-parent="#accordionEx23">
+                            <div class="card-body">
+                                <div class="row my-4">
+                                    <div class="col-md-8">
+                                        <h4 class="font-weight-bold mb-3 black-text">Utilized Technologies:</h4>
+                                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco laboris</p>
+                                        <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur.</p>
+                                    </div>
+                                    <div class="col-md-4 mt-3 pt-2">
+                                        <div class="view z-depth-1">
+                                        <img src="images/weatherdashboard.png" alt="Weather-Dashboard" class="img-fluid">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            </div>
-                        </div>
                         </div>
                     </div>
                     <div class="card">
                         <a class="collapsed font-weight-bold white-text" data-toggle="collapse" href="#collapse98" aria-expanded="false" aria-controls="collapse98">
                             <div class="card-header blue lighten-3 z-depth-1" role="tab" id="heading98">
-                                <h2>Day Planner</h2>
+                                <h2 class="app-header">Day Planner</h2>
                             </div>
                         </a>
-                        <div id="collapse98" class="collapse" role="tabpanel" aria-labelledby="heading98"
-                        data-parent="#accordionEx23">
-                        <div class="card-body">
-                            <div class="row my-4">
-                            <div class="col-md-8">
-                                <h2 class="font-weight-bold mb-3 black-text">Hi! I am the third one.</h2>
-                                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris</p>
-                                <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                fugiat nulla pariatur.</p>
-                            </div>
-                            <div class="col-md-4 mt-3 pt-2">
-                                <div class="view z-depth-1">
-                                <img src="images/dayplanner.png" alt="Day-Planner" class="img-fluid">
+                        <div id="collapse98" class="collapse" role="tabpanel" aria-labelledby="heading98" data-parent="#accordionEx23">
+                            <div class="card-body">
+                                <div class="row my-4">
+                                    <div class="col-md-8">
+                                        <h4 class="font-weight-bold mb-3 black-text">Utilized Technologies:</h4>
+                                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                        ullamco laboris</p>
+                                        <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur.</p>
+                                    </div>
+                                    <div class="col-md-4 mt-3 pt-2">
+                                        <div class="view z-depth-1">
+                                        <img src="images/dayplanner.png" alt="Day-Planner" class="img-fluid">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            </div>
-                        </div>
                         </div>
                     </div>
-                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/c16b94e625.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 </html>
