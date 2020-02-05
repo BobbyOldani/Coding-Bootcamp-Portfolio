@@ -24,6 +24,7 @@ a {
 .profInfo {
     margin: 1rem;
     font-family: 'Quicksand', sans-serif!important;
+    color: black;
 }
 
 .apps {
@@ -40,10 +41,15 @@ a {
 
 .card-body {
     background-color:white;
+    color: rgba(103, 128, 159, 1);
 }
 
 .card-header {
     background-color: rgba(103, 128, 159, 1);
+}
+
+.appBtnGroup {
+    margin-top: 1rem;
 }
 
 #jumbopic {
@@ -96,4 +102,46 @@ a {
 
 #jumbotext {
     font-size: 55pt;
+}
+
+.btn-success {
+    background-color: white;
+    border-color: rgba(46, 49, 49, 1);
+    color: rgba(46, 49, 49, 1);
+}
+
+.btn-success:hover {
+    background-color: rgba(46, 49, 49, .8);
+    border-color: rgba(46, 49, 49, .8)!important; 
+}
+
+.btn-success:active {
+    background-color: rgba(46, 49, 49, .8)!important; 
+    border-color: rgba(46, 49, 49, .8)!important; 
+}
+
+.btn-success:focus {
+    box-shadow: 0 0 0 0.2rem rgba(46, 49, 49, .5)!important;
+}
+
+.btn-outline-success {
+    background-color: white;
+    border-color: rgba(46, 49, 49, 1);
+    color: rgba(46, 49, 49, 1);
+
+}
+
+.btn-outline-success:hover {
+    background-color: rgba(46, 49, 49, .8)!important;
+    border-color: rgba(46, 49, 49, 1);
+}
+
+.btn-outline-success:active {
+    background-color: rgba(46, 49, 49, .8)!important; 
+    border-color: rgba(46, 49, 49, .8)!important;
+}
+
+.btn-outline-success:focus {
+    box-shadow: 0 0 0 0.2rem rgba(46, 49, 49, .5)!important;
+    border-color: rgba(46, 49, 49, .8);
 }

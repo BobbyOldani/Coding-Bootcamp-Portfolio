@@ -24,5 +24,21 @@ body{
 
   .btn {
     font-family: 'Quicksand', sans-serif!important;
-    border-radius: .15rem!important;
+    background-color: rgba(103, 128, 159, 1);
+    border-color: rgba(103, 128, 159, 1);
+    color: white;
+    
   }
+
+  .btn:hover {
+    color: rgba(103, 128, 159, 1);
+    background-color: white;
+    border-color: rgba(103, 128, 159, 1);
+  }
+
+  .btn:active {
+    color: white;
+    background-color: rgba(103, 128, 159, 1);
+  }
+
+  
