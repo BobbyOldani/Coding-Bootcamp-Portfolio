@@ -104,6 +104,10 @@ a {
     font-size: 55pt;
 }
 
+#transOverlay {
+    background-color: rgba(0,0,0,.4);
+}
+
 .btn-success {
     background-color: white;
     border-color: rgba(46, 49, 49, 1);
